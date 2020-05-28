@@ -8,6 +8,12 @@ public class RazeCore {
     return self.colorFromHexString("006736")
   }
   
+  
+  /// Returns an object of 'UIColor' with the second most eye-pleasing color known to all humanity
+  public static var secondayRazeColor: UIColor {
+    return self.colorFromHexString("FCFFFD")
+  }
+  
   /// Allows you to convert a 6 digit hexadecimal string into a UIColor instance
   /// - Warning: The "#" symbol is stripped from the beginning of the string submitted here.
   /// - Parameters:
